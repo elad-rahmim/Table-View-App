@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD08AC001B35E4C20027DC9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD08ABFF1B35E4C20027DC9B /* AppDelegate.swift */; };
+		DD08AC021B35E4C20027DC9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD08AC011B35E4C20027DC9B /* ViewController.swift */; };
+		DD08AC051B35E4C20027DC9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD08AC031B35E4C20027DC9B /* Main.storyboard */; };
+		DD08AC071B35E4C20027DC9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD08AC061B35E4C20027DC9B /* Images.xcassets */; };
+		DD08AC0A1B35E4C20027DC9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD08AC081B35E4C20027DC9B /* LaunchScreen.xib */; };
+		DD08AC161B35E4C20027DC9B /* Create_repository_for_Table_View_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD08AC151B35E4C20027DC9B /* Create_repository_for_Table_View_AppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD08AC101B35E4C20027DC9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD08ABF21B35E4C20027DC9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD08ABF91B35E4C20027DC9B;
+			remoteInfo = "Create repository for Table View App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD08ABFA1B35E4C20027DC9B /* Create repository for Table View App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Create repository for Table View App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD08ABFE1B35E4C20027DC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD08ABFF1B35E4C20027DC9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD08AC011B35E4C20027DC9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD08AC041B35E4C20027DC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD08AC061B35E4C20027DC9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD08AC091B35E4C20027DC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD08AC0F1B35E4C20027DC9B /* Create repository for Table View AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Create repository for Table View AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD08AC141B35E4C20027DC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD08AC151B35E4C20027DC9B /* Create_repository_for_Table_View_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Create_repository_for_Table_View_AppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD08ABF71B35E4C20027DC9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD08AC0C1B35E4C20027DC9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD08ABF11B35E4C20027DC9B = {
+			isa = PBXGroup;
+			children = (
+				DD08ABFC1B35E4C20027DC9B /* Create repository for Table View App */,
+				DD08AC121B35E4C20027DC9B /* Create repository for Table View AppTests */,
+				DD08ABFB1B35E4C20027DC9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD08ABFB1B35E4C20027DC9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD08ABFA1B35E4C20027DC9B /* Create repository for Table View App.app */,
+				DD08AC0F1B35E4C20027DC9B /* Create repository for Table View AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD08ABFC1B35E4C20027DC9B /* Create repository for Table View App */ = {
+			isa = PBXGroup;
+			children = (
+				DD08ABFF1B35E4C20027DC9B /* AppDelegate.swift */,
+				DD08AC011B35E4C20027DC9B /* ViewController.swift */,
+				DD08AC031B35E4C20027DC9B /* Main.storyboard */,
+				DD08AC061B35E4C20027DC9B /* Images.xcassets */,
+				DD08AC081B35E4C20027DC9B /* LaunchScreen.xib */,
+				DD08ABFD1B35E4C20027DC9B /* Supporting Files */,
+			);
+			path = "Create repository for Table View App";
+			sourceTree = "<group>";
+		};
+		DD08ABFD1B35E4C20027DC9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD08ABFE1B35E4C20027DC9B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD08AC121B35E4C20027DC9B /* Create repository for Table View AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD08AC151B35E4C20027DC9B /* Create_repository_for_Table_View_AppTests.swift */,
+				DD08AC131B35E4C20027DC9B /* Supporting Files */,
+			);
+			path = "Create repository for Table View AppTests";
+			sourceTree = "<group>";
+		};
+		DD08AC131B35E4C20027DC9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD08AC141B35E4C20027DC9B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD08ABF91B35E4C20027DC9B /* Create repository for Table View App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD08AC191B35E4C20027DC9B /* Build configuration list for PBXNativeTarget "Create repository for Table View App" */;
+			buildPhases = (
+				DD08ABF61B35E4C20027DC9B /* Sources */,
+				DD08ABF71B35E4C20027DC9B /* Frameworks */,
+				DD08ABF81B35E4C20027DC9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Create repository for Table View App";
+			productName = "Create repository for Table View App";
+			productReference = DD08ABFA1B35E4C20027DC9B /* Create repository for Table View App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD08AC0E1B35E4C20027DC9B /* Create repository for Table View AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD08AC1C1B35E4C20027DC9B /* Build configuration list for PBXNativeTarget "Create repository for Table View AppTests" */;
+			buildPhases = (
+				DD08AC0B1B35E4C20027DC9B /* Sources */,
+				DD08AC0C1B35E4C20027DC9B /* Frameworks */,
+				DD08AC0D1B35E4C20027DC9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD08AC111B35E4C20027DC9B /* PBXTargetDependency */,
+			);
+			name = "Create repository for Table View AppTests";
+			productName = "Create repository for Table View AppTests";
+			productReference = DD08AC0F1B35E4C20027DC9B /* Create repository for Table View AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD08ABF21B35E4C20027DC9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Elad Rahmim";
+				TargetAttributes = {
+					DD08ABF91B35E4C20027DC9B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					DD08AC0E1B35E4C20027DC9B = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DD08ABF91B35E4C20027DC9B;
+					};
+				};
+			};
+			buildConfigurationList = DD08ABF51B35E4C20027DC9B /* Build configuration list for PBXProject "Create repository for Table View App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD08ABF11B35E4C20027DC9B;
+			productRefGroup = DD08ABFB1B35E4C20027DC9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD08ABF91B35E4C20027DC9B /* Create repository for Table View App */,
+				DD08AC0E1B35E4C20027DC9B /* Create repository for Table View AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD08ABF81B35E4C20027DC9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD08AC051B35E4C20027DC9B /* Main.storyboard in Resources */,
+				DD08AC0A1B35E4C20027DC9B /* LaunchScreen.xib in Resources */,
+				DD08AC071B35E4C20027DC9B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD08AC0D1B35E4C20027DC9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD08ABF61B35E4C20027DC9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD08AC021B35E4C20027DC9B /* ViewController.swift in Sources */,
+				DD08AC001B35E4C20027DC9B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD08AC0B1B35E4C20027DC9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD08AC161B35E4C20027DC9B /* Create_repository_for_Table_View_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD08AC111B35E4C20027DC9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD08ABF91B35E4C20027DC9B /* Create repository for Table View App */;
+			targetProxy = DD08AC101B35E4C20027DC9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD08AC031B35E4C20027DC9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD08AC041B35E4C20027DC9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD08AC081B35E4C20027DC9B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD08AC091B35E4C20027DC9B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD08AC171B35E4C20027DC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD08AC181B35E4C20027DC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD08AC1A1B35E4C20027DC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Create repository for Table View App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD08AC1B1B35E4C20027DC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Create repository for Table View App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD08AC1D1B35E4C20027DC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Create repository for Table View AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Create repository for Table View App.app/Create repository for Table View App";
+			};
+			name = Debug;
+		};
+		DD08AC1E1B35E4C20027DC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Create repository for Table View AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Create repository for Table View App.app/Create repository for Table View App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD08ABF51B35E4C20027DC9B /* Build configuration list for PBXProject "Create repository for Table View App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD08AC171B35E4C20027DC9B /* Debug */,
+				DD08AC181B35E4C20027DC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD08AC191B35E4C20027DC9B /* Build configuration list for PBXNativeTarget "Create repository for Table View App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD08AC1A1B35E4C20027DC9B /* Debug */,
+				DD08AC1B1B35E4C20027DC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD08AC1C1B35E4C20027DC9B /* Build configuration list for PBXNativeTarget "Create repository for Table View AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD08AC1D1B35E4C20027DC9B /* Debug */,
+				DD08AC1E1B35E4C20027DC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD08ABF21B35E4C20027DC9B /* Project object */;
+}
